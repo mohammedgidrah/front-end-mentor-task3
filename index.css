@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Karma:wght@300;400;500;600;700&family=Kaushan+Script&display=swap');
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+}
+body{
+height: 45vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.div1 {
+    background-color: hsl(241, 81%, 54%);
+    width: 368px;
+    border-radius: 32px;
+    height: 512px;
+}
+
+pre {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    color: #CAC9FF;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 72px;
+    justify-content: center;
+    align-items: center;
+
+}
+.two{
+    position: relative;
+    color: #303B59;
+    padding-left: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+
+}
+pre {
+    color: #CAC9FF;
+    width: 220px;
+    font-size: 18px;
+    padding-left: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.of {
+    opacity: 51%;
+    position: absolute;
+    color: #CAC9FF;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 120px;
+    width: 52px;
+    height: 23px;
+    font-size: 10px;
+}
+#Reaction{
+    margin-left: 20px;
+    height: 56px;
+    color: #FF5555;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background-color: hsla(0, 100%, 67%,0.05);
+}
+#Memory{
+    margin-left: 20px;
+    height: 56px;
+    color: hsl(39, 100%, 56%);
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background-color: hsla(39, 100%, 56%,0.05);
+}
+#Verbal{
+    margin-left: 20px;
+    height: 56px;
+    color: hsl(166, 100%, 37%);
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background-color: hsla(166, 100%, 37%,0.05);
+}
+#Visual{
+    margin-left: 20px;
+    height: 56px;
+    color: hsl(234, 85%, 45%);
+    gap: 10px;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    background-color: hsla(234, 85%, 45%,0.05);
+}
+.labels{
+
+
+
+    margin-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+div span.number1{
+    padding-left: 130px;
+    color: #303B59;
+    
+}
+div span.number2{
+    
+    padding-left: 150px;
+    color: #303B59;
+    
+}
+span.rigth{
+
+    opacity: 0.5;
+}
+div span.number3{
+    padding-left: 140px;
+    color: #303B59;
+    
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+
+}
+h3.last{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-left: 35px;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    align-items: center;
+    background-color: hsl(224, 30%, 27%);
+}
+h3.last:hover{
+    background: linear-gradient( rgba(78, 33, 202, 0.7), hsla(241, 72%, 46%, 0.788));
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main{
+        flex-direction: column; 
+        height: 45vw;   
+    }
+  }
